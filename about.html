@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="assets/images/Untitled-design-2-1-e1736675058112.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | College & Campus</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-hero {
+            background: var(--bg-light);
+            padding: 8rem 0 4rem;
+            text-align: center;
+        }
+
+        .about-page-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 4rem 1.5rem;
+        }
+
+        .about-page-content h2 {
+            color: var(--primary);
+            margin: 2.5rem 0 1rem;
+        }
+
+        .about-page-content p {
+            margin-bottom: 1.5rem;
+            color: var(--text-muted);
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .highlight-card {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .highlight-card h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/Untitled-design-2-1-e1736675058112.png"
+                    alt="College & Campus Logo" height="40" style="vertical-align: middle;">
+            </a>
+            <div class="nav-links">
+                <a href="index.html#hero" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link active">About Us</a>
+                <a href="index.html#services" class="nav-link">Scholarships</a>
+                <a href="blogs.html" class="nav-link">Blogs</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="tel:+916201100423" class="btn btn-outline">+91 6201100423</a>
+                <a href="https://wa.me/916201100423" target="_blank" class="btn btn-primary">Free Counseling</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- About Header -->
+    <header class="about-hero">
+        <div class="container">
+            <h1 class="section-title">About Us</h1>
+            <p class="section-subtitle center" style="margin: 0 auto;">Holistic Education Matters!</p>
+        </div>
+    </header>
+
+    <!-- About Body -->
+    <main class="about-page-content">
+        <img src="assets/images/career-counselling.webp" alt="Career Counseling"
+            style="width: 100%; border-radius: var(--radius-lg); margin-bottom: 3rem; object-fit: cover; max-height: 450px;">
+            
+        <h2>Our Mission</h2>
+        <p>At College & Campus, we are dedicated to helping students unlock their full potential and achieve their dreams by guiding them through the complex journey of higher education. With years of expertise and a deep understanding of the global education landscape, we offer personalized consulting services for students seeking admission to top colleges and universities worldwide.</p>
+
+        <div class="highlights">
+            <div class="highlight-card">
+                <h3>Career Counselling</h3>
+                <p>Your education is a stepping stone to your career. We offer career counseling sessions that help students explore their strengths and interests, select the right courses, and plan for future career opportunities.</p>
+            </div>
+            <div class="highlight-card">
+                <h3>Admission Guidance</h3>
+                <p>Choosing the right college or university is crucial to your success. We assess your academic interests, career goals, budget, and location preferences to recommend the best institutions that match your profile.</p>
+            </div>
+            <div class="highlight-card">
+                <h3>Scholarship Support</h3>
+                <p>We understand that education can be expensive. That’s why we help students identify various scholarships, grants, and financial aid options to reduce the financial burden of studying in India and abroad.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 4rem;">
+            <a href="https://wa.me/916201100423" target="_blank" class="btn btn-primary btn-large">Book Free Counseling Session</a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-col brand-col">
+                <a href="index.html" class="logo footer-logo">
+                    <img src="assets/images/Untitled-design-2-1-1.png"
+                        alt="College & Campus Logo" height="50">
+                </a>
+                <p>We are dedicated to helping students unlock their full potential and achieve their dreams by guiding
+                    them through the complex journey of higher education.</p>
+            </div>
+            <div class="footer-col links-col">
+                <h3>Quick Links</h3>
+                <a href="index.html#hero">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="index.html#services">Why Us / Services</a>
+                <a href="blogs.html">Blog</a>
+            </div>
+            <div class="footer-col contact-col" id="contact">
+                <h3>Contact Us</h3>
+                <p>Phone: <a href="tel:+916201100423" style="display:inline; margin-bottom: 0;">+91 6201100423</a></p>
+                <p>Email: <a href="mailto:collegeandcampus1996@gmail.com"
+                        style="display:inline; margin-bottom: 0;">collegeandcampus1996@gmail.com</a></p>
+                <a href="https://wa.me/916201100423" target="_blank" class="btn btn-primary"
+                    style="margin-top: 1rem; display: inline-block;">WhatsApp Us</a>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; <span id="year"></span> All Rights Reserved | College & Campus</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
