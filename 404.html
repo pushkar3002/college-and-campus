@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <link rel="icon" type="image/png" href="assets/images/Untitled-design-2-1-e1736675058112.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Blogs | College & Campus</title>
-    <meta name="description" content="Read our latest insights on B.Tech, PGDM, MBA admissions and career counseling.">
+    <title>Page Not Found | College & Campus</title>
+    <meta name="description" content="The page you are looking for does not exist. Return to College & Campus home page.">
     
     <!-- SEO Tags -->
-    <link rel="canonical" href="https://collegeandcampus.in/blogs.html">
-    <meta property="og:title" content="All Blogs | College & Campus">
-    <meta property="og:description" content="Read our latest insights on B.Tech, PGDM, MBA admissions and career counseling.">
-    <meta property="og:url" content="https://collegeandcampus.in/blogs.html">
+    <link rel="canonical" href="https://collegeandcampus.in/404.html">
+    <meta property="og:title" content="Page Not Found | College & Campus">
+    <meta property="og:description" content="The page you are looking for does not exist. Return to College & Campus home page.">
+    <meta property="og:url" content="https://collegeandcampus.in/404.html">
     <meta property="og:type" content="website">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <!-- Custom CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <style>
-        .blogs-hero {
+        .not-found-hero {
             background: var(--bg-light);
-            padding: 8rem 0 4rem;
+            padding: 10rem 0 8rem;
             text-align: center;
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
-        .blogs-page-container {
-            padding: 4rem 0;
-            min-height: 50vh;
+        .not-found-hero h1 {
+            font-size: 6rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+
+        .not-found-hero h2 {
+            font-size: 2rem;
+            color: var(--text-dark);
+            margin-bottom: 1.5rem;
+        }
+
+        .not-found-hero p {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
         }
     </style>
 </head>
@@ -48,7 +65,7 @@
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="about.html" class="nav-link">About Us</a>
                 <a href="index.html#services" class="nav-link">Scholarships</a>
-                <a href="blogs.html" class="nav-link active">Blogs</a>
+                <a href="blogs.html" class="nav-link">Blogs</a>
                 <a href="contact.html" class="nav-link">Contact</a>
             </div>
             <div class="nav-actions">
@@ -63,59 +80,15 @@
         </div>
     </nav>
 
-    <!-- Blogs Header -->
-    <header class="blogs-hero">
+    <!-- 404 Body -->
+    <main class="not-found-hero">
         <div class="container">
-            <h1 class="section-title">Our Latest Articles</h1>
-            <p class="section-subtitle center" style="margin: 0 auto;">Insights, tips, and news on admissions and education.</p>
+            <h1>404</h1>
+            <h2>Page Not Found</h2>
+            <p style="margin-left: auto; margin-right: auto;">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+            <a href="index.html" class="btn btn-primary btn-large">Return to Homepage</a>
         </div>
-    </header>
-
-    <!-- Blogs Grid -->
-    <section class="blogs-page-container container">
-        <div class="blogs-grid">
-            <!-- Blog Card 1 -->
-            <a href="btech-admission.html" class="card blog-card">
-                <img src="assets/images/B.tech_-696x402.png"
-                    alt="B.Tech" class="blog-img">
-                <div class="blog-content">
-                    <span class="blog-tag">B.Tech</span>
-                    <h3 class="blog-title">B.Tech Admission 2025: A Complete Guide to Secure Your Engineering Seat
-                    </h3>
-                    <p class="blog-excerpt">Everything you need to know about eligibility, cutoff scores, and
-                        counseling for top engineering colleges.</p>
-                    <span class="read-more">Read Article</span>
-                </div>
-            </a>
-
-            <!-- Blog Card 2 -->
-            <a href="pgdm-admission.html" class="card blog-card">
-                <img src="assets/images/PGDM-696x402.png" alt="PGDM"
-                    class="blog-img">
-                <div class="blog-content">
-                    <span class="blog-tag">PGDM</span>
-                    <h3 class="blog-title">Your Gateway to Success: A Comprehensive Guide to PGDM Admission 2025
-                    </h3>
-                    <p class="blog-excerpt">Explore the scope, specialization, and admission process for Post
-                        Graduate Diploma in Management.</p>
-                    <span class="read-more">Read Article</span>
-                </div>
-            </a>
-
-            <!-- Blog Card 3 -->
-            <a href="mba-admission.html" class="card blog-card">
-                <img src="assets/images/MBA-696x402.png" alt="MBA"
-                    class="blog-img">
-                <div class="blog-content">
-                    <span class="blog-tag">MBA</span>
-                    <h3 class="blog-title">MBA Admissions Now Open: Unlock Your Path to Leadership</h3>
-                    <p class="blog-excerpt">A deep dive into clearing entrances and cracking the GD/PI rounds for
-                        premier B-schools.</p>
-                    <span class="read-more">Read Article</span>
-                </div>
-            </a>
-        </div>
-    </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -151,5 +124,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
