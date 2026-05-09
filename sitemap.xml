@@ -8,27 +8,27 @@
   </url>
 
   <url>
-    <loc>https://collegeandcampus.in/about/</loc>
+    <loc>https://collegeandcampus.in/about.html</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://collegeandcampus.in/why-us/</loc>
+    <loc>https://collegeandcampus.in/blogs.html</loc>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://collegeandcampus.in/contact/</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://collegeandcampus.in/b-tech-admission-2025-a-complete-guide-to-secure-your-engineering-seat/</loc>
+    <loc>https://collegeandcampus.in/btech-admission.html</loc>
     <priority>0.9</priority>
   </url>
 
   <url>
-    <loc>https://collegeandcampus.in/your-gateway-to-success-a-comprehensive-guide-to-pgdm-admission/</loc>
+    <loc>https://collegeandcampus.in/mba-admission.html</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://collegeandcampus.in/pgdm-admission.html</loc>
     <priority>0.9</priority>
   </url>
 
